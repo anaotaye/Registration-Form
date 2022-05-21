@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration Form</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+
+<body>
+
+<div class="wrapper">
+	<img src="https://phed.com.ng/wp-content/uploads/2020/11/image001.png">
+		<div class="menu">
+			<ul class="nav_links">
+			<li>
+			<a href="#">Home</a>
+			</li>
+			<li>
+			<a href="#">About Us</a>
+			</li>
+			<li>
+			<a href="#">Our Services</a>
+			</li>
+			<li>
+			<a href="#">Contact Us</a>
+			</li>
+			</ul>
+	    </div>
+
+		
+	<h4>Registration Form</h4><br/>
+	<form class="form">
+		<div class="input_field">
+			<label>First Name</label>
+			<input type="text" class="input" name="firstname" required>
+		</div>
+		<div class="input_field">
+			<label>Last Name</label>
+			<input type="text" class="input" name="lastname" required>
+		</div>
+		<div class="input_field">
+			<label>Password</label>
+			<input type="password" class="input" name="password" required>
+		</div>
+		<div class="input_field">
+			<label>Confirm Password</label>
+			<input type="password" class="input" name="confirm-password" required>
+		</div>
+		<div class="input_field">
+			<label>Gender</label>
+			<div class="custom_select">
+				<select name="gender">
+					<option value="">Select</option>
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+				</select>
+			</div>
+		</div>
+		<div class="input_field">
+			<label>Email Address</label>
+			<input type="email" class="input" name="email">
+		</div>
+		<div class="input_field">
+			<label>Phone Number</label>
+			<input type="number" class="input" name="number" min="8" max="10" required>
+		</div>
+		<div class="input_field">
+			<label>Address</label>
+			<textarea class="textarea" name="address"></textarea>
+		</div>
+		<div class="input_field terms">
+			<label class="check">
+				<input type="checkbox" name="agreement">
+				<span class="checkmark"></span>
+			</label>
+			<p>Agreed to terms and conditions</p>
+		</div>
+		<div class="input_field">
+			<input type="submit" value="Register" class="btn">
+		</div>
+	</form>
+	
+</div>
+
+<footer class="footer">
+	@PHED
+</footer>
+
+</body>
+</html>
